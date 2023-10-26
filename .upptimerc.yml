@@ -22,7 +22,7 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://carmesiservices.com/resources/images/logos/carmesiservices(blanco).png
   favicon: https://carmesiservices.com/resources/images/logos/IconPageCarmesiServices(favicon).ico
-  name: Carmesí Services status
+  name:  status page
   introTitle: " "
   introMessage: " "
   theme: night
