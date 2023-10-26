@@ -19,6 +19,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.carmesiservices.com
+  baseUrl: /status
   # baseUrl: /your-repo-name
   logoUrl: https://carmesiservices.com/resources/images/logos/carmesiservices(blanco).png
   favicon: https://carmesiservices.com/resources/images/logos/IconPageCarmesiServices(favicon).ico
