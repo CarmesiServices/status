@@ -3,27 +3,31 @@ owner: CarmesiServices # Your GitHub organization or username, where this reposi
 repo: status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  
-assigness:
+  - name: Carmesí Services
+    url: https://carmesiservices.com
+  - name: Automatización (n8n)
+    url: https://n8n.agendyfix.com/healthz
+  - name: Agendyfix API
+    url: https://us-api.agendyfix.com
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: Agendyfix App
+    url: https://app.agendyfix.com
+  - name: Data (Metabase)
+    url: https://us-data.agendyfix.com/api/health
+
+assignees:
   - paulspartan14
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.carmesiservices.com
   baseUrl: /status
-  # baseUrl: /your-repo-name
   logoUrl: https://carmesiservices.com/resources/images/logos/carmesiservices(blanco).png
   favicon: https://carmesiservices.com/resources/images/logos/IconPageCarmesiServices(favicon).ico
-  name:  status page
+  name: Carmesí Services status
   introTitle: " "
   introMessage: " "
   theme: night
