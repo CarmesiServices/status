@@ -24,7 +24,7 @@ assignees:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   cname: status.carmesiservices.com
-  baseUrl: /status
+  baseUrl: /
   logoUrl: https://carmesiservices.com/resources/images/logos/carmesiservices(blanco).png
   favicon: https://carmesiservices.com/resources/images/logos/IconPageCarmesiServices(favicon).ico
   name: Carmesí Services status
